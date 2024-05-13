@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <title>Snake Game</title>
+    <script
+      src="https://kit.fontawesome.com/c94da6b6b6.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container noselect">
+      <!-- Contenedor principal con clase noselect -->
+      <div class="wrapper">
+        <!-- Contenedor secundario con clase wrapper -->
+        <button id="replay">
+          <!-- Botón para reiniciar el juego -->
+          <i class="fa-solid fa-play"></i>
+          RESTART
+        </button>
+        <div id="canvas"></div>
+        <!-- Div para el lienzo del juego -->
+        <div id="ui">
+          <h2>SCORE</h2>
+          <!-- Encabezado para la puntuación -->
+          <span id="score">00</span>
+        </div>
+      </div>
+      <div id="author">
+        <!-- Div para el autor del juego -->
+        <h1>SNAKE</h1>
+        <span>by JenEroGames</span>
+      </div>
+    </div>
+    <!-- Javascript -->
+    <script src="script.js"></script>
+  </body>
+</html>
